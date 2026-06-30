@@ -139,12 +139,12 @@ a {
 .text-wrap h1 {
   padding-top: 20px;
   line-height: 1.4;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 .text-wrap h3 {
-  font-size: 1.35rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.5;
 }
 
 .contact-inline {
@@ -352,6 +352,14 @@ a {
   grid-template-columns: 1fr;
 }
 
+.exp-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+}
+
 .exp-meta {
   display: flex;
   justify-content: space-between;
@@ -497,7 +505,6 @@ a {
 
 .course-item {
   list-style: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .course-header {
