@@ -343,6 +343,39 @@ a {
   grid-column: 1 / -1;
 }
 
+/* Experience section ----------------------------- */
+.experience-content {
+  grid-template-columns: 1fr;
+}
+
+.exp-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin-bottom: 0.15rem;
+}
+
+.exp-company {
+  font-weight: bold;
+  color: rgb(134, 206, 226);
+  font-size: 1.05rem;
+}
+
+.exp-dates {
+  font-size: 0.85rem;
+  color: rgb(170, 170, 170);
+  white-space: nowrap;
+}
+
+.exp-location {
+  font-size: 0.85rem;
+  color: rgb(170, 170, 170);
+  font-style: italic;
+  margin: 0 0 0.7rem;
+}
+
 @media (max-width: 900px) {
   .project-content {
     grid-template-columns: 1fr;
